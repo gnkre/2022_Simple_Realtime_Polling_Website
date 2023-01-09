@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <body style="background-color:rgb(41, 41, 41);"></body>
+
+  <link href="stlye.css" rel="stylesheet" type="text/css">
+	<meta charset="utf-8">
+	<title>報告一百分plz (ˊo̴̶̷̤ ̫ o̴̶̷̤ˋ)</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+	<style type="text/css">
+		.poll-member h1 {
+			cursor: pointer
+		}
+
+    .percentageBarParent{
+      height: 22px;
+      width: 100%;
+      border: 1px solid black;
+    }
+
+    .percentageBar {
+      height: 20px;
+      width: 0%;
+    }
+	</style>
+</head>
+<body>
+	<div class="main">
+      <div class="container">
+        <h1><strong style="color:rgb(255, 255, 255)">做出尼ㄉ選擇? <p>(ง •̀_•́ )ง</p></strong></h1>
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-6">
+              <button ontouchstart="" type="button" onClick="onLeft()"><strong ><p>&emsp;</p>左邊!<p>ฅ (^>ω<⸝⸝ ^)</p><p>&emsp;</p></strong></button>
+              <strong>&emsp;&emsp;</strong>
+              <button ontouchstart=""type="button" onClick="onRight()"><strong ><p>&emsp;</p>右邊!<p>(^ ⸝⸝>ω<^) ฅ</p><p>&emsp;</p></strong></button>
+
+            </div>
+            <div class="col-md-6">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SCRIPTS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.16.2/axios.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://js.pusher.com/4.0/pusher.min.js"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='app.js') }}" defer></script>
+
+</body>
+</html>

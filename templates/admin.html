@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color:rgb(41, 41, 41);"></body>
+<head>
+	<meta charset="utf-8">
+	<title>Admin</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="main text-center">
+    <div class ="row">
+      <div class ="col-8">
+        <body><p> </p></body>
+        <h1>
+          <p style="color:rgb(255, 255, 255)">
+          <a id="Title">
+            <strong>投票段落!! ᕕ ( ᐛ ) ᕗ
+              
+            </strong>
+          </a>
+          </p>
+        </h1>
+        <img src="https://imgur.com/xQj02Eb.png" id = "image0" width="800" height="470" alt="">
+        
+      </div>
+      <div class ="col-4">
+        <img src="https://imgur.com/AlqvO0i.png" id = "image01" width="180" height="180" alt="">
+        <div class="grid text-left" style="--bs-rows: 2;">
+          <div><h3><p style="color:rgb(255, 74, 74)"><br>劇情綱要</p></h3></div>
+          <div class="g-start-2" style="grid-row: 2">
+            <a style="color:rgb(255, 255, 255)"><h5 id="details">ddd</h5></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class ="row">
+      <div class="text-center col-8">
+          <h1>
+            <p style="color:rgb(255, 255, 255)">
+            <a id="Left_text">Left: </a>
+            <a id="Left">0</a>
+            <a> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>  
+            <a id="Right_text">Right: </a>
+            <a id="Right">0</a>
+          </h1>
+      </div>
+      <!-- <body>&emsp;&emsp;&emsp;</body> -->
+    </div>
+        <!-- <button type="button" onClick="stateUp()">+</button> -->
+        <h2><strong style="color:rgb(255, 74, 74)">Timer : <a id="second">7</a></strong></h2>
+        <button type="button" onClick="load()">LOAD</button>
+        <button type="button" onClick="onClick()">Clear vote</button>
+        <button id ="btn-start">倒數十秒推進情節</button>
+        <button type="button" onClick="lifeMustGoOn()">推進情節</button>
+      <!-- <img src="https://imgur.com/hiVdcS3.png" id = "image0" width="90" height="90" alt=""> -->
+        <!-- <body><strong style="color:rgb(255, 255, 255)">鎮壓伺服器用乖乖 拜託不要出事欸</strong></body>  -->
+  </div>
+    <!-- SCRIPTS -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="https://js.pusher.com/4.0/pusher.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.js"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='admin.js') }}" defer></script>
+</body>
+</html>
